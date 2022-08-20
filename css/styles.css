@@ -1,0 +1,88 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+:root {
+  /* Fonts */
+
+  /* Text color*/
+  --primery-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  /* Background-color */
+  --primery-background-color: #f5f5f5;
+  --footer-hero-color: #2f303a;
+  --background-heder-color: #ffffff;
+  --background-team-color: #f5f4fa;
+  /* Others */
+}
+
+/* Maim page */
+body {
+  background-color: var(--primery-background-color);
+  color: var(--primery-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+/* Header */
+.header {
+  background-color: var(--background-heder-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.logo {
+  color: #000000;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: var(--accent-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.site-nav a {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.nav-site a:hover,
+.nav-site a:focus {
+  color: var(--accent-text-color);
+}
+
+ul {
+  list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* Portfolio */
+.btn {
+  cursor: pointer;
+}
+
+/* footer */
+.address {
+  font-style: normal;
+}
